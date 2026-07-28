@@ -1,9 +1,9 @@
 public class Conta implements OperacoesBancarias {
-String nome;
-int conta;
-String cpf;
-String senha;
-double saldo;
+private String nome;
+private int conta;
+private String cpf;
+private String senha;
+private double saldo;
 
 
     public Conta(String nome, int conta , String cpf , String senha , double saldo) {
@@ -59,7 +59,7 @@ public void depositar(double valor)throws Exception{
         System.out.println("Nome do Dono : " +nome);
         System.out.println("Saldo da Conta : " +saldo);
         System.out.println("Numero da conta : " +conta);
-        System.out.println("Nome do Dono : " +nome);
+
     };
 
 
